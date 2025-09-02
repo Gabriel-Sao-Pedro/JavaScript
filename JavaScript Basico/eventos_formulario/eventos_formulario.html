@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aprendendo JavaScript</title>
+        
+    </head>
+    <body>
+        <input 
+            onfocus="acao()"
+            onblur="acao1()"
+            type="text" 
+            placeholder="Digite seu nome"
+        />
+        <select onchange="acao2()">
+            <option>--Selecione uma opção--</option>
+            <option value="1">Opção 1</option>
+            <option value="2"">Opção 2</option>
+            <option value="3">Opção 3</option>
+        </select>
+
+        <script src="eventos_formulario.js"></script>
+    </body>
+</html>
